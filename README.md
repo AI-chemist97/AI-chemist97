@@ -1,11 +1,16 @@
 # Project
 1. 영화 추천 알고리즘 사이트 만들기
-    * 일희무비
-    영화 api를 TMDB에서 받아와서 제작
-    axios를 이용하여 데이터를 받아오고 받아온 데이터에서 description을 기반으로 현재 선택한 영화와 유사한 영화를 추천해주는 알고리즘을 텍스트 유사도 함수를 이용하여 구현
-![일희무비](image.png)
+* 일희무비
 
-![alt text](image-1.png)
+![일희무비](/assets/01_movie/01_01_프로젝트메인01.png)
+당시 프로젝트 이름은 일희movie로 지었는데, 별 뜻은 없고 팀원분하고 마지막까지 못 지어서 이름 한 글자씩 합쳐서 지었다.
+
+![alt text](/assets/01_movie/01_02_프로젝트메인02.png)
+
+영화 api를 TMDB에서 받아와서 제작
+axios를 이용하여 데이터를 받아오고 받아온 데이터에서 description을 기반으로 현재 선택한 영화와 유사한 영화를 추천해주는 알고리즘을 텍스트 유사도 함수를 이용하여 구현했다.
+
+
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 ![alt text](image-4.png)
