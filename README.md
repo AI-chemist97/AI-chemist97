@@ -1,7 +1,11 @@
 # Project
+
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white), ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray), ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D), ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white),
+![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF), ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+
 1. 영화 추천 알고리즘 사이트 만들기
 * 일희무비
-    * django, vue3, bootstrap을 사용하였습니다.
+    * ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white), 	![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray), ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D), ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)을 사용하였습니다.
     * 영화 api를 TMDB에서 받아와서 제작
         * axios를 이용하여 데이터를 받아오고 받아온 데이터에서 description을 기반으로 현재 선택한 영화와 유사한 영화를 추천해주는 알고리즘을 텍스트 유사도 함수를 이용하여 구현했다.
 ```py
@@ -41,6 +45,7 @@
 
 
 2. 학생들의 문해력 향상을 위한 학습 게임 만들기
+    * ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF), ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
     * 프론트 담당
     * 초기 다들 게임 개발은 처음이라 시도하던 중, three.js를 너무 잘 해서 게임 개발 담당으로 정해졌습니다.
         * 담당이 된 후 sketchfab에서 표기할 경우 상업적으로도 사용이 가능한 캐릭터들 중 애니메이션을 가진 캐릭터들을 선별하였고, 그 중 하나를 임포트 하여 개발을 시작하였습니다.
