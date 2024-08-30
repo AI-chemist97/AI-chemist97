@@ -13,31 +13,30 @@
 
 ```
     
-
-![일희무비](/assets/01_movie/01_01_프로젝트메인01.png)
+<img alt="프로젝트 메인" src="/assets/01_movie/01_01_프로젝트메인01.png" width="200"/>
 당시 프로젝트 이름은 일희movie로 지었는데, 별 뜻은 없고 팀원분하고 마지막까지 못 지어서 이름 한 글자씩 합쳐서 지었다.
 
-![프로젝트 메인](/assets/01_movie/01_02_프로젝트메인02.png)
+<img alt="프로젝트 메인" src="/assets/01_movie/01_02_프로젝트메인02.png" width="200"/>
 
 
-![인기있는 영화](image-8.png){: width="100"}
+![인기있는 영화](image-8.png)
 
-![검색창](image-2.png){: width="100"}
-![영화 상세창](image-3.png){: width="100"}
-![유튜브 미리보기창](image-4.png){: width="100"}
-![ai키워드ai요약](image-5.png){: width="100"}
-![유사한 영화 추천](image-6.png){: width="100"}
-![자동 carousel](image-7.png){: width="100"}
-![회원가입](image-9.png){: width="100"}
-![로그인](image-10.png){: width="100"}
-![유튜브검색](image-11.png){: width="100"}
-![회원가입 체크박스](image-12.png){: width="100"}
-![게시글 목록](image-13.png){: width="100"}
-![게시글 생성](image-14.png){: width="100"}
-![댓글 달기](image-15.png){: width="100"}
-![댓글 수정](image-16.png){: width="100"}
-![마이페이지](image-17.png){: width="100"}
-![게시글 수정](image-18.png){: width="100"}
+![검색창](image-2.png)
+![영화 상세창](image-3.png)
+![유튜브 미리보기창](image-4.png)
+![ai키워드ai요약](image-5.png)
+![유사한 영화 추천](image-6.png)
+![자동 carousel](image-7.png)
+![회원가입](image-9.png)
+![로그인](image-10.png)
+![유튜브검색](image-11.png)
+![회원가입 체크박스](image-12.png)
+![게시글 목록](image-13.png)
+![게시글 생성](image-14.png)
+![댓글 달기](image-15.png)
+![댓글 수정](image-16.png)
+![마이페이지](image-17.png)
+![게시글 수정](image-18.png)
 
 * 백, 프론트 구분없이 협업.
 * AI 연결 진행
