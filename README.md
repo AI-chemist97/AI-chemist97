@@ -13,22 +13,24 @@
 
 ```
     
-<img alt="프로젝트 메인" src="/assets/01_movie/01_01_프로젝트메인01.png" width="200"/>
+<img alt="프로젝트 메인" src="/assets/01_movie/01_01_프로젝트메인01.png" width="500"/>
 당시 프로젝트 이름은 일희movie로 지었는데, 별 뜻은 없고 팀원분하고 마지막까지 못 지어서 이름 한 글자씩 합쳐서 지었다.
 
-<img alt="프로젝트 메인" src="/assets/01_movie/01_02_프로젝트메인02.png" width="200"/>
+<img alt="프로젝트 메인" src="/assets/01_movie/01_02_프로젝트메인02.png" width="500"/>
 
 
-![인기있는 영화](image-8.png)
+<img alt="인기있는 영화" src="/assets/01_movie/01_03_인기있는영화.png" width="500"/>
 
-![검색창](image-2.png)
-![영화 상세창](image-3.png)
-![유튜브 미리보기창](image-4.png)
-![ai키워드ai요약](image-5.png)
-![유사한 영화 추천](image-6.png)
-![자동 carousel](image-7.png)
-![회원가입](image-9.png)
-![로그인](image-10.png)
+<img alt="프로젝트 메인" src="/assets/01_movie/01_02_프로젝트메인02.png" width="500"/>
+<img alt="검색창" src="/assets/01_movie/01_04_검색창.png" width="500"/>
+<img alt="영화 상세창" src="/assets/01_movie/01_05_영화상세창.png" width="500"/>
+<img alt="유튜브 미리보기창" src="/assets/01_movie/01_06_유튜브미리보기창.png" width="500"/>
+<img alt="ai키워드ai요약" src="/assets/01_movie/01_07_ai키워드ai요약.png" width="500"/>
+<img alt="유사한 영화추천" src="/assets/01_movie/01_08_유사한영화추천.png" width="500"/>
+<img alt="자동 carousel" src="/assets/01_movie/01_09_자동carousel.png" width="500"/>
+<img alt="회원가입" src="/assets/01_movie/01_10_회원가입.png" width="500"/>
+<img alt="로그인" src="/assets/01_movie/01_11_로그인.png" width="500"/>
+
 ![유튜브검색](image-11.png)
 ![회원가입 체크박스](image-12.png)
 ![게시글 목록](image-13.png)
@@ -38,6 +40,7 @@
 ![마이페이지](image-17.png)
 ![게시글 수정](image-18.png)
 
+최근 완료 후 ui가 너무 기능 중심인 것 같아 수정 중이다.
 * 백, 프론트 구분없이 협업.
 * AI 연결 진행
 
