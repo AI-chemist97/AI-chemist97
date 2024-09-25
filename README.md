@@ -104,16 +104,35 @@ export { cosineSimilarity };
 
 
 
-1. 학생들의 문해력 향상을 위한 학습 게임 만들기
+## 학생들의 문해력 향상을 위한 학습 게임 만들기
+* 링고랜드(Lingoland): lingo는 언어, land는 언어, land는 땅
     * ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF), ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-    * 프론트 담당
-    * 초기 다들 게임 개발은 처음이라 시도하던 중, three.js를 너무 잘 해서 게임 개발 담당으로 정해졌습니다.
-        * 담당이 된 후 sketchfab에서 표기할 경우 상업적으로도 사용이 가능한 캐릭터들 중 애니메이션을 가진 캐릭터들을 선별하였고, 그 중 하나를 임포트 하여 개발을 시작하였습니다.
-병아리
-고양이
-쥐
-....
-링크
+  
+* 게임 UI/UX 빌딩 및 제작
+    * 팀원 전원 게임 개발은 처음이라 시도하던 중, three.js를 너무 잘 해서 게임 개발 담당이 됨.
+        * 담당이 된 후 sketchfab에서 표기할 경우 상업적으로도 사용이 가능한 캐릭터들 중 애니메이션을 가진 캐릭터들을 선별하였고, 그 중 하나를 임포트 하여 개발을 시작.
+
+### 저작권 정리
+
+#### 폰트: 오픈 라이선스
+* 감자꽃gamjaflower
+* 고운바탕gowunbatang
+#### 달리기게임
+
+* 병아리: "Cute Chick" (https://skfb.ly/oLwRB) by iclartworks is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* 유니콘: "Just a Unicorn!" (https://skfb.ly/oMnB7) by nottodayrender is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* 잠자리: "Dragonfly" (https://skfb.ly/otRn6) by BL4Z33467 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* 개: "Stylized Dog Low Poly" (https://skfb.ly/oP88T) by micaelsampaio is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+	고양이: https://sketchfab.com/3d-models/little-cat-1e6f360989b04b53a393f398d5372205
+* 오징어: "squid" (https://skfb.ly/oJ8FF) by carlin.chu is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* 해적맵: "Game pirate adventure map" (https://skfb.ly/6QRZV) by noyou is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* 코인: "Coin" (https://skfb.ly/6RLBv) by Folly is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* 신발: "Hermes Shoe" (https://skfb.ly/6TELC) by HuntedGaming is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+#### 음악
+*	코인: Sound Effect by Ribhav Agrawal from Pixabay
+*	신발: Sound Effect from Pixabay
+배경음악: Music by samuel Lee from Pixabay
+
 
 
 
