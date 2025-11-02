@@ -35,8 +35,6 @@
 
 ## 🚀 대표 프로젝트 (Featured Projects)
 
-(님의 성장 스토리가 보이도록 '데이터 분석'을 메인으로, '웹 개발'을 근거로 배치했습니다.)
-
 ### 1. 췌장암 예측 모델 (GSE16515)
 * **[Data Analysis]** **[Bioinformatics]**
 * GEO의 유전자 데이터를 전처리하고, 1차 모델의 **치명적인 문제(FN=1)를 발견**했습니다.
@@ -51,7 +49,7 @@
 
 ### 3. 학과방 (Gwabang) - 학과 기반 커뮤니티
 * **[Post-SSAFY Project]** **[Full-Stack]**
-* SSAFY 수료 후, 최신 기술 스택 학습과 협업 능력 유지를 위해 **오픈카톡으로 팀원을 모집, 주도적으로 진행**한 Full-Stack 프로젝트입니다. (이 문장이 님의 1년 공백기를 완벽하게 채워줍니다.)
+* SSAFY 수료 후, 최신 기술 스택 학습과 협업 능력 유지를 위해 **오픈카톡으로 팀원을 모집, 주도적으로 진행**한 Full-Stack 프로젝트입니다.
 * **Spring Boot 3.4**, **React 19**, **JPA/JWT**를 활용하여 전국 단위 학과별 커뮤니티 플랫폼을 구축했습니다.
 * [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/gwabang)
 ### 4. 일희무비 / 링고랜드 (SSAFY Projects)
