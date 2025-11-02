@@ -26,38 +26,36 @@
     ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
     ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 * **Frontend:**
+    ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
     ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
     ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF)
-    ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 * **Game Dev:** `Three.js`
 
 ---
 
 ## 🚀 대표 프로젝트 (Featured Projects)
 
+(님의 성장 스토리가 보이도록 '데이터 분석'을 메인으로, '웹 개발'을 근거로 배치했습니다.)
+
 ### 1. 췌장암 예측 모델 (GSE16515)
 * **[Data Analysis]** **[Bioinformatics]**
 * GEO의 유전자 데이터를 전처리하고, 1차 모델의 **치명적인 문제(FN=1)를 발견**했습니다.
 * **재현율(Recall) 100%**를 목표로 `class_weight` 튜닝을 수행하고, `feature_importance_`로 핵심 유전자를 도출한 프로젝트입니다.
-* [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/003_Genomics_Omics_Project) 
-
+* [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/003_Genomics_Omics_Project)
 
 ### 2. 화학물질 독성 예측 (Tox21)
 * **[Data Analysis]** **[Cheminformatics]**
 * **`RDKit`**을 활용해 분자 특성을 추출하고 **데이터 불균형** 문제를 '언더샘플링'으로 해결했습니다.
 * **로지스틱 회귀(50% 실패)에서 결정 트리(67% 개선)**로 모델을 개선하고, `export_graphviz`로 결과를 해석한 과정을 담았습니다.
-* [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/001_TOX21_Chemical_Toxicity_Prediction) 
+* [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/001_TOX21_Chemical_Toxicity_Prediction)
 
-
-### 3. 일희무비 (영화 추천 웹사이트)
-* **[Backend]** **[Full-Stack]** (SSAFY 1학기 팀 프로젝트 - 비공개 레포지토리)
-* **Django/DRF**와 **Vue.js**를 사용해 영화 정보 제공 및 추천 사이트를 구축했습니다.
-* TMDB API 데이터를 기반으로 **텍스트 유사도(Cosine Similarity)** 추천 알고리즘을 직접 구현했습니다.
-* [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/SSAFY_projects) 
-
-
-### 4. 링고랜드 (학습 게임)
-* **[Game Dev]** **[Backend]** (SSAFY 2학기 팀 프로젝트 - 비공개 레포지토리)
-* **Spring**, **Vuetify**, **Three.js**를 활용한 문해력 향상을 위한 달리기 기반 학습 게임을 개발했습니다.
-* **Three.js**를 주도적으로 학습하여 **게임 UI/UX 빌딩 및 3D 캐릭터/맵 구현**을 담당했습니다.
-* [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/lingoland) 
+### 3. 학과방 (Gwabang) - 학과 기반 커뮤니티
+* **[Post-SSAFY Project]** **[Full-Stack]**
+* SSAFY 수료 후, 최신 기술 스택 학습과 협업 능력 유지를 위해 **오픈카톡으로 팀원을 모집, 주도적으로 진행**한 Full-Stack 프로젝트입니다. (이 문장이 님의 1년 공백기를 완벽하게 채워줍니다.)
+* **Spring Boot 3.4**, **React 19**, **JPA/JWT**를 활용하여 전국 단위 학과별 커뮤니티 플랫폼을 구축했습니다.
+* [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/gwabang)
+### 4. 일희무비 / 링고랜드 (SSAFY Projects)
+* **[SSAFY Foundation]** **[Backend]**
+* SSAFY 교육 과정 중 **Django/Spring** 및 **Vue/Three.js** 역량을 바탕으로 2개의 팀 프로젝트를 완수했습니다.
+* [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/SSAFY_projects)
+* [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/lingoland)
