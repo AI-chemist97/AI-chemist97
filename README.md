@@ -3,8 +3,8 @@
 저는 **화학/재료 공학 석사**의 깊이 있는 **도메인 지식**과 **SSAFY**에서 검증받은 **Full-Stack 개발 역량**을 융합하여,
 복잡한 데이터 속에서 '진짜 문제'를 정의하고 해결책을 제시하는 **융합형 데이터 분석가**입니다.
 
-* **Email:** `nyh1142@gmail.com`
-* **Blog:** `https://ai-chemist97.github.io/`
+* **Email:** [`nyh1142@gmail.com`](nyh1142@gmail.com)
+* **Blog:** [`https://ai-chemist97.github.io/`](https://ai-chemist97.github.io/)
 
 [![AI-Chemist97's GitHub stats](https://github-readme-stats.vercel.app/api?username=AI-chemist97&theme=radical&show_icons=true&count_private=true&hide=stars)](https://github.com/anuraghazra/github-readme-stats)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=nyh1142)](https://solved.ac/nyh1142/)
