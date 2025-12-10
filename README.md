@@ -5,6 +5,16 @@
 
 * **Email:** [`nyh1142@gmail.com`](nyh1142@gmail.com)
 * **Blog:** [`https://ai-chemist97.github.io/`](https://ai-chemist97.github.io/)
+---
+
+## 💬 Interactive Portfolio Chatbot - Jobby
+
+> 나에 대해 궁금한 건, 이제 조비에게 물어보세요.
+
+- 바로 써보기: https://jobby-henna.vercel.app/
+- Backend API (Render): Private API server URL (환경변수로 관리)
+
+---
 
 [![AI-Chemist97's GitHub stats](https://github-readme-stats.vercel.app/api?username=AI-chemist97&theme=radical&show_icons=true&count_private=true&hide=stars)](https://github.com/anuraghazra/github-readme-stats)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=nyh1142)](https://solved.ac/nyh1142/)
