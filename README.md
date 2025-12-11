@@ -48,14 +48,20 @@
 ### 1. 췌장암 예측 모델 (GSE16515)
 * **[Data Analysis]** **[Bioinformatics]**
 * GEO의 유전자 데이터를 전처리하고, 1차 모델의 **치명적인 문제(FN=1)를 발견**했습니다.
-* **재현율(Recall) 100%**를 목표로 `class_weight` 튜닝을 수행하고, `feature_importance_`로 핵심 유전자를 도출한 프로젝트입니다.
+* 이후 암 환자를 놓치지 않는 것을 우선순위로 보고, `class_weight`로 암 클래스의 비중을 높여 재현율(Recall)을 크게 개선했습니다.
+* `feature_importance_`를 활용해 모델이 주목한 핵심 유전자를 도출하고, 어떤 특징 조합에서 고위험군으로 판단하는지 해석했습니다.
 * [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/003_Genomics_Omics_Project)
+
+#### 한계 및 개선 계획
+* 현재는 class_weight 조정까지만 적용했고, 예측 확률 임계값(threshold) 조정은 미적용 상태입니다.
+* 실제 활용을 가정하면 ROC/PR 커브를 기반으로 threshold를 튜닝해 재현율-정밀도 균형을 맞추고, 교차검증으로 일반화 성능을 더 엄밀하게 평가할 계획입니다.
 
 ### 2. 화학물질 독성 예측 (Tox21)
 * **[Data Analysis]** **[Cheminformatics]**
 * **`RDKit`**을 활용해 분자 특성을 추출하고 **데이터 불균형** 문제를 '언더샘플링'으로 해결했습니다.
 * **로지스틱 회귀(50% 실패)에서 결정 트리(67% 개선)**로 모델을 개선하고, `export_graphviz`로 결과를 해석한 과정을 담았습니다.
 * [➡️ GitHub Repository 바로가기](https://github.com/AI-chemist97/001_TOX21_Chemical_Toxicity_Prediction)
+* 
 
 ### 3. 학과방 (Gwabang) - 학과 기반 커뮤니티
 * **[Post-SSAFY Project]** **[Full-Stack]**
