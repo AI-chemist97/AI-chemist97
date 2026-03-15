@@ -26,7 +26,7 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 
 ---
 
-## 🛠️ Core Professional Impact (Current @ Domain-Specific AI Startup)
+## 🛠️ 주요 성과 Core Professional Impact (Current @ Domain-Specific AI Startup)
 
 ### **1. 6.1B+ Rows 데이터 전처리 파이프라인 최적화**
 - **[KR]** 61억 건의 공정 로그 내 중복 패턴 식별을 통해 **전처리 소요 시간을 24시간에서 2시간으로 91% 단축**했습니다.
