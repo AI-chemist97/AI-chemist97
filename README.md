@@ -1,5 +1,5 @@
 # 👋 안녕하세요, AI-Chemist97 남윤희입니다.
-### Data Engineer & Scientist | Industrial Big Data & Bioinformatics Specialist
+### Data Engineer @ Domain-Specific AI Startup | Industrial Big Data Specialist
 
 화학/재료 공학 석사 학위의 깊은 도메인 지식과 SSAFY에서 다진 SW 엔지니어링 역량을 바탕으로, 제조 현장의 대규모 공정 데이터를 분석하고 확장 가능한 ML 파이프라인을 설계합니다.
 
@@ -26,7 +26,7 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 
 ---
 
-## 🛠️ Core Professional Impact (실무 성과)
+## 🛠️ Core Professional Impact (Current @ Domain-Specific AI Startup)
 
 ### **1. 6.1B+ Rows 데이터 전처리 파이프라인 최적화**
 - **[KR]** 61억 건의 공정 로그 내 중복 패턴 식별을 통해 **전처리 소요 시간을 24시간에서 2시간으로 91% 단축**했습니다.
@@ -37,7 +37,7 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 - **[EN]** Identified critical discrepancies between operational data and reference sets through domain expertise; prevented misreporting risks to Tier-1 clients by correcting data reliability.
 
 ### **3. 설비 구조-데이터 상관관계 분석을 통한 최적화**
-- **[KR]** 제품별 센서 구성 및 장비 간 관계를 분석하여 **불필요한 센서 배치를 최적화**했습니다. 이는 동료 엔지니어들이 파악하지 못했던 장비-센서 간 종속성을 데이터로 입증한 사례입니다.
+- **[KR]** 제품별 센서 구성 및 장비 간 관계를 분석하여 **필요한 센서의 누락 및 불필요한 센서의 배치를 최적화**했습니다. 이는 동료 엔지니어들이 파악하지 못했던 장비-센서 간 종속성을 데이터로 입증한 사례입니다.
 - **[EN]** Redesigned sensor configurations by identifying complex inter-equipment relationships; optimized hardware assets by eliminating redundant sensors through data-driven insights.
 
 ---
@@ -59,22 +59,26 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 ---
 
 ## 🚀 주요 프로젝트 (Featured Projects)
-
 ### **1. 췌장암 예측 모델 (GSE16515) 분석**
-- **[KR]** 고차원 유전자 데이터에서 미탐(FN) 최소화를 위해 `class_weight` 튜닝 및 재현율 최적화 실험을 진행했습니다.
-- **[EN]** Minimized **False Negatives (FN)** in genomic data by implementing `class_weight` tuning and cost-sensitive learning.
+- **[KR]** Affymetrix U133 Plus 2.0 칩 기반의 고차원 유전자 데이터에서 미탐(FN) 최소화를 위해 `class_weight` 튜닝 및 재현율 최적화 실험을 진행했습니다. feature_importance_를 활용한 고위험군 분류 체계 해석에 집중했습니다.
+- **[EN]** Minimized **False Negatives (FN)** in genomic data by implementing `class_weight` tuning and RF feature importance analysis.
 - [🔗 GitHub Repository](https://github.com/AI-chemist97/003_Genomics_Omics_Project)
 
 ### **2. 화학물질 독성 예측 (Tox21)**
-- **[KR]** **RDKit**을 활용하여 분자 특성을 추출하고, 결정트리 시각화를 통해 독성 판단 규칙에 대한 해석력을 확보했습니다.
+- **[KR]** **RDKit**으로 분자 특성을 추출하여 수백 개 규모의 피처를 생성하고, 결정트리 모델 시각화를 통해 독성 판단 규칙에 대한 해석력을 확보했습니다.
 - **[EN]** Engineered molecular descriptors via RDKit and interpreted toxicity rules through Decision Tree visualization.
 - [🔗 GitHub Repository](https://github.com/AI-chemist97/001_TOX21_Chemical_Toxicity_Prediction)
 
-### **3. 학과방 (Gwabang) & SSAFY 프로젝트**
-- **[KR]** Spring Boot, React, Django 등을 활용하여 서비스 전체 라이프사이클을 구현했습니다.
-- **[EN]** Implemented full-stack services (Spring Boot, React, Django) covering the entire software development lifecycle.
-- [🔗 Gwabang Repo](https://github.com/AI-chemist97/gwabang) | [🔗 SSAFY Projects](https://github.com/AI-chemist97/SSAFY_projects)
+### **3. 학과방 (Gwabang) - 학과 기반 커뮤니티**
+- **[KR]** SSAFY 수료 후 최신 기술 스택 유지를 위해 오픈카톡으로 팀원을 모집해 진행한 프로젝트입니다. Spring Boot 3.4, React 19, JPA/JWT를 사용해 학과별 커뮤니티 서비스를 구현했습니다.
+- **[EN]** Full-stack project built with Spring Boot 3.4 and React 19, focusing on department-based community features.
+- [🔗 GitHub Repository](https://github.com/AI-chemist97/gwabang)
 
+### **4. 일희무비 / 링고랜드 (SSAFY Projects)**
+- **[KR]** Django/Spring, Vue/Three.js를 사용하여 백엔드 API 설계부터 프론트 개발까지 전체 플로우를 구현하며 웹 서비스 아키텍처를 익혔습니다.
+- **[EN]** Developed full-stack web services using Django, Spring, and Vue.js during SSAFY foundation training.
+- [🔗 SSAFY Projects Repo](https://github.com/AI-chemist97/SSAFY_projects) | [🔗 Lingoland Repo](https://github.com/AI-chemist97/lingoland)
+  
 
 ---
 
@@ -101,47 +105,6 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
   ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF)  
 
 * **Game/Interactive:** Three.js  
-
----
-
-## 🚀 대표 프로젝트 (Featured Projects)
-
-### 1. 췌장암 예측 모델 (GSE16515)
-
-* **[Data Analysis] [Bioinformatics]**  
-* GEO 췌장암 유전자 발현 데이터 GSE16515(종양 36건, 정상 16건, 총 52샘플)를 사용했습니다.  
-* Affymetrix U133 Plus 2.0 칩 기반 데이터로, 약 5만 개 유전자 프로브 중 중요한 특징들을 중심으로 분류 모델을 구성했습니다.  
-* 초기 모델에서 암 환자를 놓치는 사례(FN=1)가 나오는 문제를 확인했고,  
-  암 환자를 놓치지 않는 방향으로 class_weight를 조정해 재현율(Recall)을 올리는 실험을 진행했습니다.  
-* feature_importance_를 활용해 모델이 주목한 유전자를 확인하고,  
-  어떤 특징 조합에서 고위험군으로 분류되는지 해석하는 데 집중했습니다.  
-* ➡️ GitHub Repository: https://github.com/AI-chemist97/003_Genomics_Omics_Project  
-
----
-
-### 2. 화학물질 독성 예측 (Tox21)
-
-* **[Data Analysis] [Cheminformatics]**  
-* Tox21 독성 예측 데이터에서 약 1만 2천 개 수준의 화합물 데이터를 사용해,  
-  각 화합물의 독성(여러 타깃에 대한 활성 여부)을 예측하는 이진 분류 문제로 다뤘습니다.  
-* RDKit으로 분자 특성을 추출해 수백 개 규모의 분자 기술자치(피처)를 만들고,  
-  데이터 불균형 문제는 언더샘플링을 통해 어느 정도 완화했습니다.  
-* 로지스틱 회귀에서 성능이 충분하지 않아 결정트리 모델로 바꿔 보면서,  
-  성능과 해석 가능성을 함께 비교했습니다.  
-* export_graphviz로 의사결정 트리를 시각화해,  
-  어떤 규칙이 독성 판단에 영향을 주는지 살펴보는 과정을 포함했습니다.  
-* ➡️ GitHub Repository: https://github.com/AI-chemist97/001_TOX21_Chemical_Toxicity_Prediction  
-
----
-
-### 3. 학과방 (Gwabang) - 학과 기반 커뮤니티
-
-* **[Post-SSAFY Project] [Full-Stack]**  
-* SSAFY 수료 후, 최신 기술 스택을 계속 써 보기 위해 오픈카톡으로 팀원을 모집해서 진행한 프로젝트입니다.  
-* Spring Boot 3.4, React 19, JPA/JWT를 사용해 학과별 커뮤니티 서비스를 구현했습니다.  
-* ➡️ GitHub Repository: https://github.com/AI-chemist97/gwabang  
-
----
 
 
 ---
