@@ -82,13 +82,11 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 
 ### 1. 데이터 분석 & 머신러닝 (Data Analysis & ML)
 
-* **Language:** Python  
-* **Data Handling:** pandas, numpy  
-* **ML & Analysis:** scikit-learn  
-  - 분류/회귀 (LogisticRegression, RandomForest 등)  
-  - 전처리/스케일링, 클래스 불균형(class_weight) 처리, PCA  
-* **Domain-Specific:** RDKit (Cheminformatics), 유전자/오믹스 데이터 처리  
-* **Visualization:** matplotlib, seaborn  
+* **Language:** Python (Advanced), SQL
+* **Data Handling:** pandas, numpy, Parquet optimization
+* **ML & Analysis:** scikit-learn (LogisticRegression, RandomForest 등), 전처리/스케일링, 클래스 불균형(class_weight) 처리, PCA
+* **Domain-Specific:** RDKit (Cheminformatics), 유전자/오믹스 데이터 처리
+* **Visualization:** matplotlib, seaborn
 
 ### 2. 백엔드 & 웹 (Backend & Web)
 
@@ -145,13 +143,6 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 
 ---
 
-### 4. 일희무비 / 링고랜드 (SSAFY Projects)
-
-* **[SSAFY Foundation] [Backend]**  
-* SSAFY 교육 과정 중 Django/Spring, Vue/Three.js를 사용한 팀 프로젝트를 경험했습니다.  
-* 백엔드 API 설계와 프론트 개발을 함께 맡으면서, 웹 서비스 전체 플로우를 익혔습니다.  
-* ➡️ GitHub Repository: https://github.com/AI-chemist97/SSAFY_projects  
-* ➡️ GitHub Repository: https://github.com/AI-chemist97/lingoland  
 
 ---
 
