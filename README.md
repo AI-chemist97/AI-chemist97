@@ -52,7 +52,7 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 
 ---
 
-[![AI-Chemist97's GitHub stats](https://github-readme-stats.vercel.app/api?username=AI-chemist97&theme=radical&show_icons=true&count_private=true&hide=stars)](https://github.com/anuraghazra/github-readme-stats)  
+[![AI-Chemist97's GitHub stats](https://github-readme-stats-two-pearl-36.vercel.app/api?username=AI-chemist97&theme=radical&show_icons=true&count_private=true&hide=stars)](https://github.com/anuraghazra/github-readme-stats)  
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=nyh1142)](https://solved.ac/nyh1142/)
 
 
