@@ -28,17 +28,13 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 
 ## 🛠️ 주요 성과 Core Professional Impact (Current @ Domain-Specific AI Startup)
 
-### **1. 6.1B+ Rows 데이터 전처리 파이프라인 최적화**
-- **[KR]** 61억 건의 공정 로그 내 중복 패턴 식별을 통해 **전처리 소요 시간을 24시간에서 2시간으로 91% 단축**했습니다.
-- **[EN]** Optimized semiconductor process log pipeline by identifying redundancy in 6.1B rows; improved processing speed by **1,200% (24h → 2h)**.
+### **1. 설비-센서 종속성 규명을 통한 6.1B Rows 파이프라인 최적화**
+- **[KR]** 동료 엔지니어들이 파악하지 못했던 장비-센서 간의 종속성 및 중복 구조를 도메인 지식으로 규명했습니다. 이를 바탕으로 불필요한 센서 데이터를 제거하고 61억 건의 공정 로그 처리 로직을 재구성하여, **전처리 소요 시간을 24시간에서 2시간으로 91% 단축**했습니다.
+- **[EN]** Identified undocumented sensor-equipment dependencies and structural redundancies. By eliminating unnecessary sensor data, optimized the processing logic for 6.1 billion rows, **reducing preprocessing time by 91% (24h → 2h)**.
 
 ### **2. 데이터 무결성 검증 및 대외 리스크 차단 (Data Integrity)**
 - **[KR]** 실무 데이터와 기존 답안 간의 불일치를 직관적으로 포착, 정밀 재검증을 통해 **대기업 거래처 오보고 리스크를 선제적으로 차단**했습니다. (기존 신뢰도 90% → 실 정합성 20% 확인)
 - **[EN]** Identified critical discrepancies between operational data and reference sets through domain expertise; prevented misreporting risks to Tier-1 clients by correcting data reliability.
-
-### **3. 설비 구조-데이터 상관관계 분석을 통한 최적화**
-- **[KR]** 제품별 센서 구성 및 장비 간 관계를 분석하여 **필요한 센서의 누락 및 불필요한 센서의 배치를 최적화**했습니다. 이는 동료 엔지니어들이 파악하지 못했던 장비-센서 간 종속성을 데이터로 입증한 사례입니다.
-- **[EN]** Redesigned sensor configurations by identifying complex inter-equipment relationships; optimized hardware assets by eliminating redundant sensors through data-driven insights.
 
 ---
 
