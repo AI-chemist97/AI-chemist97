@@ -57,8 +57,8 @@
 ### **2. yt-factory — 쇼츠 영상 자동 생성 파이프라인 (Automated Shorts Pipeline)**
 - **[KR]** **Gemini**로 매일 새 주제의 대본을 만들고 **edge-tts**로 음성을 입혀 배경·자막을 합성한 뒤 텔레그램으로 받아봅니다.
 - **[EN]** Generates a fresh script daily with **Gemini**, narrates it with **edge-tts**, composes background and subtitles, and delivers the video via Telegram.
-- **[KR]** 유료 TTS와 로컬 TTS를 비교해, 매일 자동 생성 구조에 맞는 무료 TTS로 **운영비 0원**을 유지합니다.
-- **[EN]** Compared paid and local TTS options and chose free TTS that fits daily automation, keeping **running cost at zero**.
+- **[KR]** 유료 TTS와 로컬 TTS를 비교해, 매일 자동 생성 구조에 맞는 무료 TTS로 **운영비 0원** 구조를 설계했습니다. 테스트까지 마쳤고, 유튜브 업로드는 아직 하지 않았습니다.
+- **[EN]** Compared paid and local TTS options and chose free TTS that fits daily automation, designing for **zero running cost**. Tested end to end; not yet publishing to YouTube.
 
 ---
 
