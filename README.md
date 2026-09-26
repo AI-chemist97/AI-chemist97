@@ -22,7 +22,7 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
   - **[KR]** 전공인 화학(Chemist)과 현재의 전문 분야인 AI를 결합했습니다. 화학물질 독성 예측(Tox21) 및 유전자 데이터 분석 프로젝트를 통해 커리어를 시작했습니다.
   - **[EN]** Combined my major in **Chemistry** with my current expertise in **AI**. Started my data career with projects like Tox21 and genomic data analysis.
   - **[KR]** 영어로 **alchemist(연금술사)**와 발음이 유사하여, 로우 데이터를 정제하여 비즈니스 가치를 만들어내는 전문가가 되겠다는 포부를 담았습니다.
-  - **[EN]** Sounds like **'alchemist'**, representing my goal to transform raw data into valuable business insights.슷하게 보여서, 실험·모델·코드들을 섞어 보면서 조금씩 배워 간다는 의미도 담았습니다.
+  - **[EN]** Sounds like **'alchemist'**, representing my goal to transform raw data into valuable business insights.
 
 ---
 
@@ -51,6 +51,22 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 [![AI-Chemist97's GitHub stats](https://github-readme-stats-two-pearl-36.vercel.app/api?username=AI-chemist97&theme=radical&show_icons=true&count_private=true&hide=stars)](https://github.com/anuraghazra/github-readme-stats)   
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=nyh1142)](https://solved.ac/nyh1142/)
 
+
+---
+
+## 🤖 AI 기반 개인 프로젝트 (AI-Powered Side Projects, 2026)
+
+> Claude Code를 페어 엔지니어로 두고 설계부터 실운영까지 직접 만들고 있습니다. **AI로 빠르게 만들고, 결과가 좋아 보일수록 먼저 의심합니다.**
+
+### **1. 주식 자동매매 봇 (국내 / ISA / 스윙 / 미국)**
+- **[KR]** 증권사 API로 시세를 받고 **LightGBM**으로 종목별 수익률을 예측, **Optuna**로 튜닝하고 **SHAP**으로 근거를 해석합니다. Docker 컨테이너로 24시간 운영하며 매일 텔레그램으로 리포트를 받습니다.
+- **[KR]** 백테스트 수익률이 비정상적으로 높은 것을 의심해 추적한 결과, **$0.5 미만 초저가 종목의 체결 불가능한 거래**가 평균 거래 수익률을 **3.33% → 43.61%**로 부풀리고 있음을 찾아 교정했습니다.
+- **[KR]** 운영 중 크래시 4건과 API 레이트리밋(시간당 100건+ → 거의 0건)을 해결했고, KRX 호가단위(매수 올림/매도 내림)를 반영했습니다.
+- **[EN]** Four live trading bots (LightGBM + Optuna + SHAP, Dockerized, Telegram reports). Caught an inflated backtest where untradeable sub-$0.5 stocks pushed average trade return from 3.33% to 43.61%.
+
+### **2. yt-factory - 쇼츠 영상 자동 생성 파이프라인**
+- **[KR]** **Gemini**로 매일 새 주제의 대본을 만들고 **edge-tts**로 음성을 입혀 배경·자막을 합성한 뒤 텔레그램으로 받아봅니다. 유료 TTS와 로컬 TTS를 비교해, 매일 자동 생성 구조에 맞는 무료 TTS로 **운영비 0원**을 유지합니다.
+- **[EN]** Daily auto-generated shorts: Gemini script → edge-tts narration → video composition → Telegram delivery, at zero running cost.
 
 ---
 
@@ -87,6 +103,8 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 * **ML & Analysis:** scikit-learn (LogisticRegression, RandomForest 등), 전처리/스케일링, 클래스 불균형(class_weight) 처리, PCA
 * **Domain-Specific:** RDKit (Cheminformatics), 유전자/오믹스 데이터 처리
 * **Visualization:** matplotlib, seaborn
+* **ML Ops & Automation:** LightGBM, Optuna, SHAP, Docker, Telegram Bot API
+* **AI Tools:** Claude Code, Claude, GPT, Gemini
 
 ### 2. 백엔드 & 웹 (Backend & Web)
 
@@ -107,8 +125,8 @@ I am a Data Engineer with a **Master's in Materials Chemistry & Engineering**. I
 
 ## 🔭 앞으로 해볼 계획
 
-- 반도체 공정 로그, 센서 데이터, 주식 시계열을 활용한  
-  시계열 예측·이상탐지 프로젝트를 Python/ML 기반으로 진행해 볼 예정입니다.  
+- 실운영 중인 자동매매 봇의 봇별 수익률을 실시간 전광판으로 공개할 예정입니다.  
+- 반도체 공정 로그, 센서 데이터를 활용한 시계열 예측·이상탐지 프로젝트를 이어갈 예정입니다.  
 - Python → EDA → SQL → ML 순서로 공부 내용을 정리하면서,  
   여기에서 나온 결과들을 포트폴리오 프로젝트로 계속 확장해 볼 생각입니다.
 
