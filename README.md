@@ -44,6 +44,14 @@
 > **[EN]** I build from design to live operation with Claude Code as a pair engineer. Build fast with AI; the better a result looks, the harder I question it.
 
 ### **1. 주식 자동매매 봇 (Automated Trading Bots) — 국내 / ISA / 스윙 / 미국 (KR / ISA / Swing / US)**
+
+**📟 LIVE RETURN** — 장 마감 후 자동 갱신 (Auto-updated after market close) · [전광판 보기 (Scoreboard)](https://ai-chemist97.github.io/trading-scoreboard/)
+
+[![국내](https://img.shields.io/endpoint?style=for-the-badge&url=https://raw.githubusercontent.com/AI-chemist97/trading-scoreboard/main/badge/kr.json)](https://ai-chemist97.github.io/trading-scoreboard/)
+[![ISA](https://img.shields.io/endpoint?style=for-the-badge&url=https://raw.githubusercontent.com/AI-chemist97/trading-scoreboard/main/badge/isa.json)](https://ai-chemist97.github.io/trading-scoreboard/)
+[![스윙](https://img.shields.io/endpoint?style=for-the-badge&url=https://raw.githubusercontent.com/AI-chemist97/trading-scoreboard/main/badge/swing.json)](https://ai-chemist97.github.io/trading-scoreboard/)
+[![미국](https://img.shields.io/endpoint?style=for-the-badge&url=https://raw.githubusercontent.com/AI-chemist97/trading-scoreboard/main/badge/us.json)](https://ai-chemist97.github.io/trading-scoreboard/)
+
 - **[KR]** 증권사 API로 시세를 받고 **LightGBM**으로 종목별 수익률을 예측, **Optuna**로 튜닝하고 **SHAP**으로 근거를 해석합니다. Docker 컨테이너로 24시간 운영하며 매일 텔레그램으로 리포트를 받습니다.
 - **[EN]** Pulls market data via brokerage APIs, predicts per-stock returns with **LightGBM**, tunes with **Optuna**, and explains predictions with **SHAP**. Runs 24/7 in Docker with daily Telegram reports.
 - **[KR]** 백테스트 수익률이 비정상적으로 높은 것을 의심해 추적한 결과, **$0.5 미만 초저가 종목의 체결 불가능한 거래**가 평균 거래 수익률을 **3.33% → 43.61%**로 부풀리고 있음을 찾아 교정했습니다.
@@ -118,8 +126,6 @@
 
 ## 🔭 앞으로 해볼 계획 (What's Next)
 
-- **[KR]** 실운영 중인 자동매매 봇의 봇별 수익률을 실시간 전광판으로 공개할 예정입니다.
-- **[EN]** Publish each live trading bot's return on a real-time scoreboard.
 - **[KR]** 반도체 공정 로그·센서 데이터를 활용한 시계열 예측·이상탐지 프로젝트를 이어갈 예정입니다.
 - **[EN]** Continue time-series forecasting and anomaly detection on semiconductor process logs and sensor data.
 
