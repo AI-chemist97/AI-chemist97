@@ -45,7 +45,7 @@
 
 ### **1. 주식 자동매매 봇 (Automated Trading Bots) — 국내 / ISA / 스윙 / 미국 (KR / ISA / Swing / US)**
 
-[![Trading Scoreboard](https://raw.githubusercontent.com/AI-chemist97/trading-scoreboard/main/card.svg)](https://ai-chemist97.github.io/trading-scoreboard/)
+[![Trading Scoreboard](https://raw.githubusercontent.com/AI-chemist97/trading-scoreboard/main/card.svg)](https://ai-chemist97.github.io/scoreboard/)
 
 - **[KR]** 증권사 API로 시세를 받고 **LightGBM**으로 종목별 수익률을 예측, **Optuna**로 튜닝하고 **SHAP**으로 근거를 해석합니다. Docker 컨테이너로 24시간 운영하며 매일 텔레그램으로 리포트를 받습니다.
 - **[EN]** Pulls market data via brokerage APIs, predicts per-stock returns with **LightGBM**, tunes with **Optuna**, and explains predictions with **SHAP**. Runs 24/7 in Docker with daily Telegram reports.
