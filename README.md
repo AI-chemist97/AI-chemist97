@@ -1,5 +1,5 @@
 # 👋 안녕하세요, AI-Chemist97 남윤희입니다. (Hi, I'm Yunhee Nam, AI-Chemist97)
-### Data Engineer @ Domain-Specific AI Startup | Industrial Big Data Specialist
+### AI/Data Engineer | Industrial Big Data Specialist
 
 - **[KR]** 화학/재료공학 석사의 도메인 지식과 SSAFY에서 다진 SW 엔지니어링 역량을 바탕으로, 제조 현장의 대규모 공정 데이터를 분석하고 확장 가능한 ML 파이프라인을 설계합니다.
 - **[EN]** A Data Engineer with a **Master's in Materials Chemistry & Engineering**, bridging deep chemical domain knowledge and high-throughput **Industrial Data Engineering (6B+ rows)**.
@@ -8,8 +8,8 @@
 - **[EN]** First-authored a paper in **JIEC** (Journal of Industrial and Engineering Chemistry, ScienceDirect) on chemical detection with nanocomposites during my master's.
   - *"Effective hydroquinone detection using a manganese stannate/functionalized carbon black nanocomposite"*
 
-- **[KR]** 현재 60억 건 이상의 산업 데이터를 다루며, 데이터 신뢰성을 검증하고 분석 효율을 높이는 일을 하고 있습니다.
-- **[EN]** Currently handling 6B+ rows of industrial data, validating data reliability and maximizing analysis efficiency.
+- **[KR]** AI 스타트업에서 60억 건 이상의 산업 데이터를 다루며, 데이터 신뢰성을 검증하고 분석 효율을 높이는 일을 했습니다.
+- **[EN]** At an AI startup, handled 6B+ rows of industrial data, validating data reliability and maximizing analysis efficiency.
 
 * **Email:** `nyh1142@gmail.com`
 * **Blog:** https://ai-chemist97.github.io/
@@ -25,7 +25,7 @@
 
 ---
 
-## 🛠️ 주요 성과 (Core Professional Impact) — Current @ Domain-Specific AI Startup
+## 🛠️ 주요 성과 (Core Professional Impact) — @ Domain-Specific AI Startup
 
 ### **1. 설비-센서 종속성 규명을 통한 6.1B Rows 파이프라인 최적화 (6.1B-Row Pipeline Optimization)**
 - **[KR]** 동료 엔지니어들이 파악하지 못했던 장비-센서 간 종속성과 중복 구조를 도메인 지식으로 규명했습니다. 불필요한 센서 데이터를 제거하고 61억 건의 공정 로그 처리 로직을 재구성해 **전처리 시간을 24시간에서 2시간으로 91% 단축**했습니다.
