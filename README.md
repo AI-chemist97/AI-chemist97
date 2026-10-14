@@ -71,8 +71,8 @@
 
 ### **2. 화학물질 독성 예측 (Chemical Toxicity Prediction, Tox21)**
 - **[KR]** 1차: **RDKit**으로 분자 특성 217개를 만들고 결정트리 시각화로 독성 판단 규칙을 해석했습니다.
-- **[KR]** 2차: 12개 타깃 전체를 같은 scaffold가 train과 test에 섞이지 않도록 5-fold로 나누어 평가했습니다(결측 라벨은 타깃별로 제외, 평균 ROC-AUC 0.795). 퀴논·유기주석 등 화학 구조 가설을 데이터로 확인했고, 구조 표시를 모델에 넣어도 점수는 오르지 않았습니다.
-- **[EN]** Round 1: built 217 **RDKit** descriptors and read toxicity rules from a decision tree. Round 2: evaluated all 12 targets with scaffold-grouped 5-fold CV (missing labels masked per target, mean ROC-AUC 0.795), checked chemistry-based hypotheses on the data, and found that adding the structure flags did not improve the score.
+- **[KR]** 2차: 12개 타깃 전체를 같은 scaffold가 train과 test에 섞이지 않도록 5-fold로 나누어 평가했습니다(결측 라벨은 타깃별로 제외, 평균 ROC-AUC 0.795).
+- **[EN]** Round 1: built 217 **RDKit** descriptors and read toxicity rules from a decision tree. Round 2: evaluated all 12 targets with scaffold-grouped 5-fold CV (missing labels masked per target, mean ROC-AUC 0.795).
 - [🔗 GitHub Repository](https://github.com/AI-chemist97/001_TOX21_Chemical_Toxicity_Prediction)
 
 ### **3. 학과방 (Gwabang) — 학과 기반 커뮤니티 (Department-Based Community)**
