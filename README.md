@@ -70,9 +70,8 @@
 - [🔗 GitHub Repository](https://github.com/AI-chemist97/003_Genomics_Omics_Project)
 
 ### **2. 화학물질 독성 예측 (Chemical Toxicity Prediction, Tox21)**
-- **[KR]** 1차: **RDKit**으로 분자 특성 217개를 만들고 결정트리 시각화로 독성 판단 규칙을 해석했습니다.
-- **[KR]** 2차: 12개 타깃 전체를 같은 scaffold가 train과 test에 섞이지 않도록 5-fold로 나누어 평가했습니다(결측 라벨은 타깃별로 제외, 평균 ROC-AUC 0.795).
-- **[EN]** Round 1: built 217 **RDKit** descriptors and read toxicity rules from a decision tree. Round 2: evaluated all 12 targets with scaffold-grouped 5-fold CV (missing labels masked per target, mean ROC-AUC 0.795).
+- **[KR]** NR-AR 한 개 타깃에서 결측 라벨을 제외하고 독성 1.9%의 불균형을 언더샘플링으로 맞춘 뒤, **RDKit** 분자 기술자 217개로 로지스틱 회귀(정확도 50%)와 결정 트리(67%)를 비교했습니다. 시험 표본이 24건이라 67%는 우연과 구분되지 않는다는 한계가 있습니다.
+- **[EN]** On the NR-AR target only: dropped missing labels, balanced the 1.9% positive rate by undersampling, and compared logistic regression (50% accuracy) with a decision tree (67%) on 217 **RDKit** descriptors. With only 24 test samples, 67% cannot be told apart from chance.
 - [🔗 GitHub Repository](https://github.com/AI-chemist97/001_TOX21_Chemical_Toxicity_Prediction)
 
 ### **3. 학과방 (Gwabang) — 학과 기반 커뮤니티 (Department-Based Community)**
@@ -117,13 +116,6 @@
   ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF)
 
 * **Game/Interactive:** Three.js
-
----
-
-## 🔭 앞으로 해볼 계획 (What's Next)
-
-- **[KR]** Tox21에서 쓴 평가 방식(scaffold 분할, 타깃별 결측 처리)을 그대로 두고, fingerprint 기반 baseline과 GNN 같은 학습된 분자 표현을 같은 조건에서 비교해 볼 계획입니다.
-- **[EN]** Keep the Tox21 evaluation setup (scaffold split, per-target missing-label masking) and compare the fingerprint baseline with learned molecular representations such as GNNs under the same conditions.
 
 ---
 
