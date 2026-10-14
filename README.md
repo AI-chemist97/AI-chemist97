@@ -1,15 +1,15 @@
 # 👋 안녕하세요, AI-Chemist97 남윤희입니다. (Hi, I'm Yunhee Nam, AI-Chemist97)
-### AI/Data Engineer | Industrial Big Data Specialist
+### Data Analyst / Data Engineer
 
-- **[KR]** 화학/재료공학 석사의 도메인 지식과 SSAFY에서 다진 SW 엔지니어링 역량을 바탕으로, 제조 현장의 대규모 공정 데이터를 분석하고 확장 가능한 ML 파이프라인을 설계합니다.
-- **[EN]** A Data Engineer with a **Master's in Materials Chemistry & Engineering**, bridging deep chemical domain knowledge and high-throughput **Industrial Data Engineering (6B+ rows)**.
+- **[KR]** 화학/재료공학 석사의 도메인 지식과 SSAFY에서 다진 SW 엔지니어링 역량을 바탕으로, 제조 현장의 공정 데이터를 다루며 데이터 품질을 검증하고 ML 모델을 만듭니다.
+- **[EN]** A Data Engineer with a **Master's in Materials Chemistry & Engineering**, bridging chemical domain knowledge and **industrial process data work**.
 
 - **[KR]** 석사 과정 중 화학물질 검출·나노복합체 연구로 ScienceDirect 등재 저널 **JIEC**에 제1저자 논문을 게재했습니다.
 - **[EN]** First-authored a paper in **JIEC** (Journal of Industrial and Engineering Chemistry, ScienceDirect) on chemical detection with nanocomposites during my master's.
   - *"Effective hydroquinone detection using a manganese stannate/functionalized carbon black nanocomposite"*
 
-- **[KR]** AI 스타트업에서 60억 건 이상의 산업 데이터를 다루며, 데이터 신뢰성을 검증하고 분석 효율을 높이는 일을 했습니다.
-- **[EN]** At an AI startup, handled 6B+ rows of industrial data, validating data reliability and maximizing analysis efficiency.
+- **[KR]** AI 스타트업에서 산업 공정 데이터의 중복을 찾아 전처리 시간을 줄이고, 데이터 신뢰성을 검증하는 일을 했습니다.
+- **[EN]** At an AI startup, found duplicated records in industrial process data, cut preprocessing time, and validated data reliability.
 
 * **Email:** `nyh1142@gmail.com`
 * **Blog:** https://ai-chemist97.github.io/
@@ -27,13 +27,13 @@
 
 ## 🛠️ 주요 성과 (Core Professional Impact) — @ Domain-Specific AI Startup
 
-### **1. 설비-센서 종속성 규명을 통한 6.1B Rows 파이프라인 최적화 (6.1B-Row Pipeline Optimization)**
-- **[KR]** 동료 엔지니어들이 파악하지 못했던 장비-센서 간 종속성과 중복 구조를 도메인 지식으로 규명했습니다. 불필요한 센서 데이터를 제거하고 61억 건의 공정 로그 처리 로직을 재구성해 **전처리 시간을 24시간에서 2시간으로 91% 단축**했습니다.
-- **[EN]** Identified undocumented sensor-equipment dependencies and redundancies. By removing unnecessary sensor data and restructuring the logic for 6.1 billion rows, **cut preprocessing time by 91% (24h → 2h)**.
+### **1. 중복 레코드 제거를 통한 전처리 시간 단축 (Preprocessing Time Reduction)**
+- **[KR]** 공정 로그에서 숫자 패턴이 반복되는 것을 확인하고 중복 검사를 직접 수행해, 정답 데이터와 결합하는 과정에서 같은 기록이 10배 이상 복제되는 구조를 찾았습니다. 중복을 제거해 **전처리 시간을 24시간에서 2시간으로** 줄였습니다.
+- **[EN]** Noticed repeating numeric patterns in process logs and ran a duplicate check myself. When joined with the ground-truth data, the same record was replicated more than ten times. Removing the duplicates **cut preprocessing time from 24 hours to 2 hours**.
 
-### **2. 데이터 무결성 검증 및 대외 리스크 차단 (Data Integrity)**
-- **[KR]** 실무 데이터와 기존 답안 간의 불일치를 포착하고 정밀 재검증해 **대기업 거래처 오보고 리스크를 선제적으로 차단**했습니다. (기존 신뢰도 90% → 실제 정합성 20% 확인)
-- **[EN]** Caught critical discrepancies between operational data and reference sets and re-validated them, **preventing misreporting risks to Tier-1 clients** (assumed 90% reliability → 20% actual consistency).
+### **2. 데이터 정합성 재검증 (Data Integrity Re-check)**
+- **[KR]** 실무 데이터와 기준 데이터 간의 불일치를 재검증해 **데이터 신뢰성 문제를 확인**했습니다.
+- **[EN]** Re-validated discrepancies between operational data and reference data and **identified a data reliability problem**.
 
 ---
 
@@ -70,8 +70,9 @@
 - [🔗 GitHub Repository](https://github.com/AI-chemist97/003_Genomics_Omics_Project)
 
 ### **2. 화학물질 독성 예측 (Chemical Toxicity Prediction, Tox21)**
-- **[KR]** **RDKit**으로 분자 특성을 추출해 수백 개 규모의 피처를 만들고, 결정트리 시각화로 독성 판단 규칙을 해석했습니다.
-- **[EN]** Engineered hundreds of molecular descriptors with **RDKit** and interpreted toxicity rules through decision tree visualization.
+- **[KR]** 1차: **RDKit**으로 분자 특성 217개를 만들고 결정트리 시각화로 독성 판단 규칙을 해석했습니다.
+- **[KR]** 2차: 12개 타깃 전체를 같은 scaffold가 train과 test에 섞이지 않도록 5-fold로 나누어 평가했습니다(결측 라벨은 타깃별로 제외, 평균 ROC-AUC 0.795). 퀴논·유기주석 등 화학 구조 가설을 데이터로 확인했고, 구조 표시를 모델에 넣어도 점수는 오르지 않았습니다.
+- **[EN]** Round 1: built 217 **RDKit** descriptors and read toxicity rules from a decision tree. Round 2: evaluated all 12 targets with scaffold-grouped 5-fold CV (missing labels masked per target, mean ROC-AUC 0.795), checked chemistry-based hypotheses on the data, and found that adding the structure flags did not improve the score.
 - [🔗 GitHub Repository](https://github.com/AI-chemist97/001_TOX21_Chemical_Toxicity_Prediction)
 
 ### **3. 학과방 (Gwabang) — 학과 기반 커뮤니티 (Department-Based Community)**
@@ -95,7 +96,7 @@
 
 ### 1. 데이터 분석 & 머신러닝 (Data Analysis & ML)
 
-* **Language:** Python (Advanced), SQL
+* **Language:** Python (pandas, scikit-learn), SQL
 * **Data Handling:** pandas, numpy, Parquet optimization
 * **ML & Analysis:** scikit-learn (LogisticRegression, RandomForest, etc.), preprocessing/scaling, class imbalance (`class_weight`), PCA
 * **ML Ops & Automation:** LightGBM, Optuna, SHAP, Docker, Telegram Bot API
@@ -121,8 +122,8 @@
 
 ## 🔭 앞으로 해볼 계획 (What's Next)
 
-- **[KR]** 반도체 공정 로그·센서 데이터를 활용한 시계열 예측·이상탐지 프로젝트를 이어갈 예정입니다.
-- **[EN]** Continue time-series forecasting and anomaly detection on semiconductor process logs and sensor data.
+- **[KR]** Tox21에서 쓴 평가 방식(scaffold 분할, 타깃별 결측 처리)을 그대로 두고, fingerprint 기반 baseline과 GNN 같은 학습된 분자 표현을 같은 조건에서 비교해 볼 계획입니다.
+- **[EN]** Keep the Tox21 evaluation setup (scaffold split, per-target missing-label masking) and compare the fingerprint baseline with learned molecular representations such as GNNs under the same conditions.
 
 ---
 
